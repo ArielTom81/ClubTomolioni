@@ -42,7 +42,7 @@ body {
 
 .publi{
     display: flex;
-    flex-direction: wrap;
+    flex-direction: column;
 }
 
 .publi .publiTitulo {
