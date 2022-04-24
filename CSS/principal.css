@@ -125,7 +125,7 @@ body {
     padding: 10px;
 }
 
-.deporteImg {
+.deporteImg5, .deporteImg6 {
     border: solid 2px orange;
     border-radius: 15px;
     width: 150px;
@@ -293,7 +293,13 @@ th, td {
         "deporteImg4" ;
     }
 
-    
+    .deporteHorarios{
+        display: grid;
+        grid-template-areas:
+        "deporteImg5"
+        "deporteImg6" ;
+        }
+
     .deporteHorarios article {
         display: none;
     }
@@ -344,7 +350,6 @@ th, td {
         grid-template-columns: auto;
         justify-items: center;
         align-items: stretch;
-        
     }
 
     .plato{
