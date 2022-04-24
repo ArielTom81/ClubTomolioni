@@ -1,4 +1,4 @@
-<img src="Logo.png">
+<img src="Logo.png" width="250px" eight="190px">
 
 # Club Social y Deportivo
 
