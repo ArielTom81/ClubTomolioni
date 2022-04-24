@@ -108,6 +108,7 @@ body {
 
 .fotoRestaurant{
     width: 100%;
+    height: auto;
 }
 
 .principalDeporte {
@@ -118,6 +119,7 @@ body {
 .principalDeporte > div {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
@@ -125,7 +127,7 @@ body {
     padding: 10px;
 }
 
-.deporteImg5, .deporteImg6 {
+.deporteImg5, .deporteImg6, .deporteImg7 {
     border: solid 2px orange;
     border-radius: 15px;
     width: 150px;
@@ -157,7 +159,6 @@ body {
 
 .deporteProfe {
     color:yellow;
-    
     font-size: 25px;
 }
 
