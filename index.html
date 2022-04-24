@@ -6,82 +6,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Club Social Y Deportivo</title>
         <link rel="shortcut icon" href="Logo.png">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/principal.css">
     </head>
     <body>
-        <header class="header">
-            <aside class="publi">
-                <div class="publiTitulo" >
-                    <img class="tituloLogo" src="Logo.png" alt="Escudo Club" title="Escudo">
-                    <div class="tituloP1">Bulonera Tomolioni</div>
-                    <div class="tituloP2">Salames Don Mael</div>
-                    <div class="tituloP3">Namasté Accesorios</div>
-                </div>
-            </aside>
-        </header>
-        <main class="principal">
-            <nav class="navegador">
-                <a class="navegadorPagina1" href="index.html">Home</a> 
-                <a class="navegadorPagina2" href="paginas/futbol.html">Futbol</a>
-                <a class="navegadorPagina3" href="paginas/polideportivo.html"> Polideportivo</a>
-                <a class="navegadorPagina4" href="paginas/salondeusos.html">Salón de Usos Múltiples</a>
-                <a class="navegadorPagina5" href="paginas/restaurant.html">Restaurant</a>
-            </nav>
-            <section class="principalDeporte">
-                <form action="">
-                    <fieldset class="deporteHorarios">
-                        <legend>Hacete Socio</legend>
-                        <label for="nombre">Nombre</label> <br>
-                        <input type="text" name="nombre"> <br>
-                        <label for="direccion">Dirección</label> <br>
-                        <input type="text" name="direccion"> <br>
-                        <label for="telefono">Teléfono</label> <br>
-                        <input type="number" name="telefono"> <br>
-                        <input type="checkbox" value="s"> Solo <br>
-                        <input type="checkbox" value="g"> Grupo Familiar <br>
-                        <label for="">Cuantos conforman el grupo familiar</label> <br>
-                        <input type="radio" name="cuantos conforman el grupo familiar"> 2 <br>
-                        <input type="radio" name="cuantos conforman el grupo familiar"> 3 <br>
-                        <input type="radio"name="cuantos conforman el grupo familiar"> 4 <br>
-                        <input type="radio"name="cuantos conforman el grupo familiar"> 5 o más <br>
-                    </fieldset>
-                </form>
-            </section>
-            <h1>CLUB SOCIAL Y DEPORTIVO</h1>
-            <section class="social">
-                <img class="deporteImg1" src="imagenes/futbol1.jpg" alt="pelota de futbol" title="Pelota">
-                <img class="deporteImg2" src="imagenes/basquet1.jpg" alt="pelota basquet" title="Basquet">
-                <img class="deporteImg3" src="imagenes/boxeo3.jpg" alt="guantes boxeo" title="Boxeo">
-                <img class="deporteImg4" src="imagenes/pesas2.jpg" alt="pesas" title="Gimnasio">
-            </section>
-            <section class="principalDeporte">
-                <div class="deporteHorarios">
-                    <h2>Historia del club</h2>
-                    <div>
-                        <p>Somos un grupo de amigos que en 1905 nos pusimos de acuerdo para crear este club, debido a la gran pasión que sentíamos por este deporte - Juan Sa Socio Fundador </p>
-                        <p>Al pasar los años nos fuimos interesando por otras disciplinas, es así que en la actualidad además de fútbol, tenemos basquet, tenis, un gimnasio, yoga.</p>
-                        <p>Con el sacrificio y la ayuda de los socios pudimos construir un salón de usos múltiples y una cancha de fútbol 5</p>
+        <div class="container-fluid">
+            <header class="header">
+                <aside class="publi">
+                    <div class="publiTitulo" >
+                        <img class="tituloLogo" src="Logo.png" alt="Escudo Club" title="Escudo">
+                        <div class="tituloP1">Bulonera Tomolioni</div>
+                        <div class="tituloP2">Salames Don Mael</div>
+                        <div class="tituloP3">Namasté Accesorios</div>
                     </div>
+                </aside>
+            </header>
+            <main class="principal">
+                <nav class="navegador">
+                    <a class="navegadorPagina1" href="index.html">Home</a> 
+                    <a class="navegadorPagina2" href="paginas/futbol.html">Fútbol</a>
+                    <a class="navegadorPagina3" href="paginas/polideportivo.html"> Polideportivo</a>
+                    <a class="navegadorPagina4" href="paginas/salondeusos.html">Salón de Usos Múltiples</a>
+                    <a class="navegadorPagina5" href="paginas/restaurant.html">Restaurant</a>
+                </nav>
+                <section class="principalDeporte">
+                    <form action="">
+                        <fieldset class="deporteHorarios">
+                            <legend>Hacete Socio</legend>
+                            <label for="nombre">Nombre</label> <br>
+                            <input type="text" name="nombre"> <br>
+                            <label for="direccion">Dirección</label> <br>
+                            <input type="text" name="direccion"> <br>
+                            <label for="telefono">Teléfono</label> <br>
+                            <input type="number" name="telefono"> <br>
+                            <input type="checkbox" value="s"> Solo <br>
+                            <input type="checkbox" value="g"> Grupo Familiar <br>
+                            <label for="">Cuantos conforman el grupo familiar</label> <br>
+                            <input type="radio" name="cuantos conforman el grupo familiar"> 2 <br>
+                            <input type="radio" name="cuantos conforman el grupo familiar"> 3 <br>
+                            <input type="radio"name="cuantos conforman el grupo familiar"> 4 <br>
+                            <input type="radio"name="cuantos conforman el grupo familiar"> 5 o más <br>
+                        </fieldset>
+                    </form>
+                </section>
+                <h1>CLUB SOCIAL Y DEPORTIVO</h1>
+                <section class="social">
+                    <img class="deporteImg1" src="imagenes/futbol1.jpg" alt="pelota de futbol" title="Pelota">
+                    <img class="deporteImg2" src="imagenes/basquet1.jpg" alt="pelota basquet" title="Basquet">
+                    <img class="deporteImg3" src="imagenes/boxeo3.jpg" alt="guantes boxeo" title="Boxeo">
+                    <img class="deporteImg4" src="imagenes/pesas2.jpg" alt="pesas" title="Gimnasio">
+                </section>
+                <section class="principalDeporte">
+                    <div class="deporteHorarios">
+                        <h2>Historia del club</h2>
+                        <div>
+                            <p>Somos un grupo de amigos que en 1905 nos pusimos de acuerdo para crear este club, debido a la gran pasión que sentíamos por este deporte - Juan Sa Socio Fundador </p>
+                            <p>Al pasar los años nos fuimos interesando por otras disciplinas, es así que en la actualidad además de fútbol, tenemos basquet, tenis, un gimnasio, yoga.</p>
+                            <p>Con el sacrificio y la ayuda de los socios pudimos construir un salón de usos múltiples y una cancha de fútbol 5</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="pie">
+                    <section class="pieDireccion">
+                        <p>clubsocialydeportivo@hotmail.com</p>
+                        <p>Directo 222 - Allá Lejos - Argentina</p>
+                        <p>54 34823 222888999</p>
+                    </section>
+                    <section class="pieRedes">
+                        <p>Twiter</p>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                    </section>
+                    <section class="pieAutor">
+                        <p>Copyright 2021 © Club Social y Deportivo</p>
+                        <p>Autor: Ariel Tomolioni</p>
+                    </section>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <div class="pie">
-                <section class="pieDireccion">
-                    <p>clubsocialydeportivo@hotmail.com</p>
-                    <p>Directo 222 - Allá Lejos - Argentina</p>
-                    <p>54 34823 222888999</p>
-                </section>
-                <section class="pieRedes">
-                    <p>Twiter</p>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                </section>
-                <section class="pieAutor">
-                    <p>Copyright 2021 © Club Social y Deportivo</p>
-                    <p>Autor: Ariel Tomolioni</p>
-                </section>
-            </div>
-        </footer>
+            </footer>
+        </div>
+        <script src="/JS/bootstrap.bundle.min.js"></script>
     </body>
 </html>
