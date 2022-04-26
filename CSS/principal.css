@@ -15,16 +15,16 @@
 
 /*Acá empieza el navegador*/
 
-.navegador {
+.principal nav {
+    background-image: linear-gradient(to left, #4CAF50, #173819);
     justify-items: stretch;
     text-align: center;
-    display: grid;
-    grid-template-areas: 
-    "navegadorPagina1 navegadorPagina2 navegadorPagina3 navegadorPagina4 navegadorPagina5";
 }
 
 .navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5 {
     color: yellow;
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    width: 200px;
     border-radius: 5px;
     border: solid 2px orange;
     text-decoration: none;
@@ -55,7 +55,6 @@ body {
 }
 
 .publi img{
-    border: solid 2px orange;
     width: 150px;
     height: 105px;
     transition: transform 2s
@@ -85,6 +84,7 @@ body {
 .fotoRestaurant{
     width: 100%;
     height: auto;
+    padding: 2px;
 }
 
 .principalDeporte {
@@ -93,9 +93,7 @@ body {
 }
 
 .principalDeporte > div {
-    display: flex;
     align-items: center;
-    flex-wrap: wrap;
     padding: 10px;
 }
 
@@ -146,18 +144,10 @@ h1 {
     font-size: 35px;
 }
 
-.social {
-    display: grid;
-    grid-template-areas:
-    "deporteImg1 deporteImg2"
-    "deporteImg3 deporteImg4" ;
-}
-
 .social img {
-    width: 290px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
 }
-
 
 h2{
     text-align: center;
