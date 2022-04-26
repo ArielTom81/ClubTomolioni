@@ -24,7 +24,7 @@
 .navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5 {
     color: yellow;
     background-image: linear-gradient(to left, #4CAF50, #173819);
-    width: 200px;
+    width: 100%;
     border-radius: 5px;
     border: solid 2px orange;
     text-decoration: none;
@@ -103,9 +103,8 @@ body {
 
 .deporteImg5, .deporteImg6, .deporteImg7 {
     border: solid 2px orange;
-    border-radius: 15px;
-    width: 150px;
-    height: 100px;
+    width: 40%;
+    height: 40%;
     margin-right: 10px;
 }
 
@@ -252,6 +251,10 @@ th, td {
         "navegadorPagina3 navegadorPagina4";
     }
 
+    .navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5{
+        width: 100%;
+    }
+
     .social {
         display: grid;
         grid-template-areas:
@@ -271,6 +274,12 @@ th, td {
     .deporteHorarios article {
         display: none;
     }
+
+    .deporteImg5 .deporteImg6{
+        width: 100%;
+        height: auto;
+    }
+   
 
     .plato{
         display: grid;
@@ -318,6 +327,11 @@ th, td {
         grid-template-columns: auto;
         justify-items: center;
         align-items: stretch;
+    }
+
+    .deporteImg5 .deporteImg6{
+        width: 50%;
+        height: 50%
     }
 
     .plato{
