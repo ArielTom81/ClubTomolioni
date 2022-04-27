@@ -101,6 +101,12 @@ body {
     padding: 10px;
 }
 
+.basquet {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .deporteImg5, .deporteImg6, .deporteImg7 {
     border: solid 2px orange;
     width: 40%;
@@ -112,10 +118,16 @@ body {
     margin: 10px;
     color: yellow;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     animation-name: depor;
     animation-duration: 3s;
     animation-iteration-count: 3;
+  }
+
+  .btn{
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    color: yellow;
+    border: solid 2px orange;
   }
   
   @keyframes depor {
@@ -264,23 +276,15 @@ th, td {
         "deporteImg4" ;
     }
 
-    .deporteHorarios{
-        display: grid;
-        grid-template-areas:
-        "deporteImg5"
-        "deporteImg6" ;
-        }
-
     .deporteHorarios article {
         display: none;
     }
 
-    .deporteImg5 .deporteImg6{
+    .basquet .deporteImg5 .deporteImg6{
         width: 100%;
         height: auto;
     }
    
-
     .plato{
         display: grid;
         grid-template-areas: 
@@ -322,16 +326,11 @@ th, td {
         "navegadorPagina5";
     }
 
-    .principalDeporte div {
-        display: grid;
-        grid-template-columns: auto;
-        justify-items: center;
-        align-items: stretch;
-    }
+  
 
     .deporteImg5 .deporteImg6{
-        width: 50%;
-        height: 50%
+        width: 100%;
+        height: auto;
     }
 
     .plato{
@@ -347,7 +346,6 @@ th, td {
         "plato8"
         "plato9";
     }
-
 }
     
 
