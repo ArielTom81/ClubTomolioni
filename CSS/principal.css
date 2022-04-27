@@ -320,6 +320,10 @@ th, td {
         "tituloP3";
     }
 
+    .deporteHorarios div{
+        display: none;
+    }
+
     .navegador {
         display: grid;
         grid-template-areas: 
