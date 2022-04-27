@@ -54,16 +54,16 @@ body {
     justify-content: space-between;
 }
 
-.publi img{
+.publi div img{
     width: 150px;
     height: 105px;
-    transition: transform 2s
+    transition: all 2s;
 }
 
 .publi div div {
     border: dashed 2px orange;
     border-radius: 20px;
-    width: 90px;
+    width: 100px;
     height: 70px;
     padding: 10px;
     text-align: center;
@@ -122,6 +122,14 @@ body {
     animation-name: depor;
     animation-duration: 3s;
     animation-iteration-count: 3;
+  }
+
+  .principalDeporte .form-group {
+      text-align: left;
+  }
+
+  .principalDeporte .form-check{
+      text-align: left;
   }
 
   .btn{
@@ -204,11 +212,11 @@ ul {
 
 .table {
     table-layout: fixed;
+    color: yellow;
     border: 3px solid orange;
     border-collapse: collapse;
     text-align: center;
-    width: 50%;
-    height: 50%;
+    
 }
 
 th, td {
@@ -276,10 +284,6 @@ th, td {
         "deporteImg4" ;
     }
 
-    .deporteHorarios article {
-        display: none;
-    }
-
     .basquet .deporteImg5 .deporteImg6{
         width: 100%;
         height: auto;
@@ -325,8 +329,6 @@ th, td {
         "navegadorPagina4"
         "navegadorPagina5";
     }
-
-  
 
     .deporteImg5 .deporteImg6{
         width: 100%;
