@@ -185,9 +185,12 @@ h3{
     font-size: 25px;
     text-align: center;
     color: orange;
-    width: 100%;
-    color: yellow;
-    
+    width: 100%;  
+}
+
+.card-img-top{
+    width:50%;
+    height: 50%;
 }
 
 .fotoComida{
