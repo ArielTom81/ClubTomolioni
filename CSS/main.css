@@ -1,27 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
-}
+  box-sizing: border-box; }
 
-/*---header-nav---*/
+/*---header----*/
 header .publi {
   display: flex;
-  flex-direction: column; 
-}
+  flex-direction: column; }
   header .publi div {
     justify-items: center;
     align-items: center;
     padding: 5px;
     font-family: inspiration;
     display: flex;
-    justify-content: space-between; 
-  }
+    justify-content: space-between; }
     header .publi div img {
       width: 150px;
       height: 105px;
-      transition: all 2s; 
-    }
+      transition: all 2s; }
     header .publi div div {
       border: dashed 2px orange;
       border-radius: 20px;
@@ -30,21 +26,17 @@ header .publi {
       padding: 10px;
       text-align: center;
       color: yellow;
-      transition: all 3s; 
-    }
+      transition: all 3s; }
       header .publi div div:hover {
         width: 110px;
-        height: 90px; 
-      }
+        height: 90px; }
 
 .principal {
-  font-family: inspiration; 
-}
+  font-family: inspiration; }
   .principal nav {
     background-image: linear-gradient(to left, #4CAF50, #173819);
     justify-items: stretch;
-    text-align: center; 
-  }
+    text-align: center; }
     .principal nav div a {
       color: yellow;
       background-image: linear-gradient(to left, #4CAF50, #173819);
@@ -53,46 +45,36 @@ header .publi {
       border: solid 2px orange;
       text-decoration: none;
       padding: 14px;
-      font-family: inspiration; 
-    }
+      font-family: inspiration; }
   .principal .principalDeporte {
     color: yellow;
-    font-size: 20px; 
-  }
+    font-size: 20px; }
     .principal .principalDeporte .deporteHorarios {
       align-items: center;
-      padding: 10px; 
-    }
+      padding: 10px; }
       .principal .principalDeporte .deporteHorarios h2 {
         text-align: center;
         font-family: sendflowers;
         color: orange;
-        font-size: 30px; 
-      }
+        font-size: 30px; }
       .principal .principalDeporte .deporteHorarios div {
-        padding: 10px; 
-      }
+        padding: 10px; }
       .principal .principalDeporte .deporteHorarios .btn {
         background-image: linear-gradient(to left, #4CAF50, #173819);
         color: yellow;
-        border: solid 2px orange;
-      }
+        border: solid 2px orange; }
   .principal .form-group {
-    text-align: left; 
-  }
+    text-align: left; }
   .principal .form-check {
-    text-align: left; 
-  }
+    text-align: left; }
   .principal h1 {
     text-align: center;
     font-family: sendflowers;
     color: orange;
-    font-size: 35px; 
-  }
+    font-size: 35px; }
   .principal .social img {
     width: 400px;
-    height: 400px; 
-  }
+    height: 400px; }
 
 /*---footer---*/
 .pie {
@@ -101,19 +83,15 @@ header .publi {
   display: grid;
   grid-template-areas: "pieDireccion pieRedes pieAutor";
   justify-items: center;
-  align-items: center; 
-}
+  align-items: center; }
   .pie .pieDireccion {
     text-align: center;
     color: yellow;
-    padding-bottom: 10px; 
-  }
+    padding-bottom: 10px; }
   .pie .pieRedes {
     text-align: center;
-    color: yellow; 
-  }
+    color: yellow; }
   .pie .pieAutor {
     text-align: center;
     color: yellow;
-    padding-top: 10px; 
-  }
+    padding-top: 10px; }
