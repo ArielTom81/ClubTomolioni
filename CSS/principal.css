@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 @font-face {
     font-family: smokun;
@@ -13,7 +10,7 @@
     src: url("../Fuentes/SendFlowers-Regular.ttf");
 }
 
-/*Acá empieza el navegador*/
+/*Acá empieza el navegador
 
 .principal nav {
     background-image: linear-gradient(to left, #4CAF50, #173819);
@@ -30,7 +27,7 @@
     text-decoration: none;
     padding: 14px;
     font-family: inspiration;
-}
+}----acá termina el nav*/
 
 /*Acá empieza el Main*/
 
@@ -39,7 +36,7 @@ body {
     background-color: #4CAF50;
     background-image: linear-gradient(to left, #4CAF50, #173819);
 }
-
+/*------yaesta en sass
 .publi{
     display: flex;
     flex-direction: column;
@@ -76,17 +73,16 @@ body {
     height: 90px;
 }
 
-/*Acá empieza el main*/
 .principal {
     font-family: inspiration;
-}
+}---*/
 
 .fotoRestaurant{
     width: 100%;
     height: auto;
     padding: 2px;
 }
-
+/*----YA LO PASE A SASS
 .principalDeporte {
     color: yellow;
     font-size: 20px;
@@ -100,7 +96,7 @@ body {
 .principalDeporte div div {
     padding: 10px;
 }
-
+-----*/
 .basquet {
     display: flex;
     justify-content: center;
@@ -123,7 +119,7 @@ body {
     animation-duration: 5s;
     animation-iteration-count: 1;
   }
-
+/*---ya tiene Sass
   .principalDeporte .form-group {
       text-align: left;
   }
@@ -137,7 +133,7 @@ body {
     color: yellow;
     border: solid 2px orange;
   }
-  
+  ----*/
   @keyframes depor {
     from {
         margin-left: 100%;
@@ -155,7 +151,7 @@ body {
     color:yellow;
     font-size: 25px;
 }
-
+/*-----ya esta en Sass
 h1 {
     text-align: center;
     font-family: sendflowers;
@@ -166,7 +162,7 @@ h1 {
 .social img {
     width: 400px;
     height: 400px;
-}
+
 
 h2{
     text-align: center;
@@ -174,7 +170,7 @@ h2{
     color: orange;
     font-size: 30px;
 }
-
+}----*/
 h3{
     text-decoration: underline wavy orange;
     font-family: sendflowers;
@@ -227,13 +223,12 @@ th, td {
     height: 100%;
 }
 
-/*Acá empieza el footer*/
+/*Acá empieza el footer
 .pie {
     font-family: inspiration; 
     padding: 10px;
     display: grid;
-    grid-template-areas: 
-        "pieDireccion pieRedes pieAutor";
+    grid-template-areas: "pieDireccion pieRedes pieAutor";
     justify-items: center;
     align-items: center;
 }
@@ -253,7 +248,7 @@ th, td {
     text-align: center;
     color: yellow;
     padding-top: 10px;
-}
+}--acá termina el footer*/
 
 /*Acá empieza el reponsive tablet*/
 @media (max-width: 768px){
@@ -353,5 +348,3 @@ th, td {
         "plato9";
     }
 }
-    
-

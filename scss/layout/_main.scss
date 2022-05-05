@@ -1,0 +1,60 @@
+.principal{
+    font-family: inspiration;
+    nav{
+        background-image: linear-gradient(to left, #4CAF50, #173819);
+        justify-items: stretch;
+        text-align: center;
+        div{
+            a{
+            color: yellow;
+            background-image: linear-gradient(to left, #4CAF50, #173819);
+            width: 100%;
+            border-radius: 5px;
+            border: solid 2px orange;
+            text-decoration: none;
+            padding: 14px;
+            font-family: inspiration;
+            }
+        }
+    }
+    .principalDeporte{
+        color: yellow;
+        font-size: 20px;
+        .deporteHorarios{
+            align-items: center;
+            padding: 10px;
+            h2{
+                text-align: center;
+                font-family: sendflowers;
+                color: orange;
+                font-size: 30px; 
+            }
+            div{
+                padding: 10px;
+            }
+            .btn{
+                background-image: linear-gradient(to left, #4CAF50, #173819);
+                color: yellow;
+                border: solid 2px orange;
+            }
+        }
+    }
+    .form-group{
+        text-align: left;
+    }
+    .form-check{
+        text-align: left;
+    }
+    h1{
+        text-align: center;
+        font-family: sendflowers;
+        color: orange;
+        font-size: 35px;
+    }
+    .social{
+        img{
+            width: 400px;
+            height: 400px;  
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/*---footer---*/
+.pie{
+    font-family: inspiration; 
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "pieDireccion pieRedes pieAutor";
+    justify-items: center;
+    align-items: center;
+    .pieDireccion{
+        text-align: center;
+        color: yellow;
+        padding-bottom: 10px;
+    }
+    .pieRedes{
+        text-align: center;
+        color: yellow;
+    }
+    .pieAutor{
+        text-align: center;
+        color: yellow;
+        padding-top: 10px;
+    }
+}

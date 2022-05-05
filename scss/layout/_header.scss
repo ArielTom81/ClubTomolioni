@@ -1,0 +1,34 @@
+/*---header-nav---*/
+header{
+    .publi{
+        display: flex;
+        flex-direction: column;
+        div {
+            justify-items: center;
+            align-items: center;
+            padding: 5px;
+            font-family: inspiration;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 150px;
+                height: 105px;
+                transition: all 2s; 
+            }
+            div{
+                border: dashed 2px orange;
+                border-radius: 20px;
+                width: 100px;
+                height: 70px;
+                padding: 10px;
+                text-align: center;
+                color: yellow;
+                transition: all 3s;
+                &:hover{
+                    width: 110px;
+                    height: 90px;
+                }
+            }
+        }
+    }
+}
