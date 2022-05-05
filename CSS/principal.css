@@ -186,11 +186,8 @@ h3{
     text-align: center;
     color: orange;
     width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "plato1 plato2 plato3"
-    "plato4 plato5 plato6"
-    "plato7 plato8 plato9";
+    color: yellow;
+    
 }
 
 .fotoComida{

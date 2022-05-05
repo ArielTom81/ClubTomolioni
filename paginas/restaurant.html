@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurant</title>
         <link rel="shortcut icon" href="../Logo.png">
-        <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-        <link rel="stylesheet" href="../CSS/principal.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/principal.css">
     </head>
     <body>
         <div class="container-fluid">
@@ -37,110 +38,169 @@
                 <h2>Restaurant de comida casera</h2>
                 <img class="fotoRestaurant" src="../imagenes/fotos-restaurant/restaurant.jpg" alt="Imagen Comedor" title="Mesa">
                 <h3>Menú</h3>
-                <div class="deporteBox">
-                    <ul class="plato">
-                        <li class="plato1">Platos
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/plato.jpg" alt="imagen de churrasquito" title="Churrasquito">
-                                <li>Costeletas de cerdo con guarnición</li>
-                                <li>Bife de chorizo con guarnición</li>
-                                <li>Pollo a la plancha con guarnición</li>
-                                <li>Pulpetín con guarnición</li>
-                            </ul>
-                        </li>
-                        <li class="plato2">Guarniciones
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/ensalada.jpg" alt="Ensalada" title="Ensalada">
-                                <li>Papas fritas porción</li>
-                                <li>Puré de papas porción</li>
-                                <li>Ensalada mixta</li>
-                            </ul>
-                        </li>
-                        <li class="plato3">Pastas
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/pastas.jpg" alt="Plato pastas" title="Pastas">
-                                <li>Ñoquis</li>
-                                <li>Tallarines</li>
-                                <li>Canelones</li>
-                                <li>Ravioles</li>
-                            </ul>
-                        </li>
-                        <li class="plato4">Milanesas
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/pollo.jpg" alt="Presa pollo" title="Pollo">
-                                <li>Milanesa simple con guarnición</li>
-                                <li>Milanesa completa con guarnición</li>
-                                <li>Milanesa a la pizza con guarnición</li>
-                                <li>Milanesa a caballo con guarnición</li>
-                            </ul>
-                        </li>
-                        <li class="plato5">Picadas
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/picadas.jpg" alt="imagen picada" title="Picada">
-                                <li>De milanesa para 1 persona</li>
-                                <li>De chorizo y queso para 1 persona</li>
-                                <li>De milanesa para 4 personas</li>
-                            </ul>
-                        </li>
-                        <li class="plato6">Sandwiches
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/sandwich.jpg" alt="Imagen Sandwich" title="Sandwich">
-                                <li>De lomito simple con fritas</li>
-                                <li>De lomito completo con fritas</li>
-                                <li>De lomito especial con fritas</li>
-                                <li>De Hamburguesa simple con fritas</li>
-                                <li>De Hamburguesa completa con fritas</li>
-                                <li>De Hamburguesa especial con fritas</li>
-                            </ul>
-                        </li>
-                        <li class="plato7">Pizzas
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/pizza.jpg" alt="imagen pizza" title="Pizza">
-                                <li>Común</li>
-                                <li>Especial</li>
-                                <li>Calabresa</li>
-                                <li>Especial con huevo</li>
-                                <li>Napolitana</li>
-                            </ul>
-                        </li>
-                        <li class="plato8">Empanadas
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/empanada.jpg" alt="Imagen empanada" title="Empanada">
-                                <li>Carne dulce</li>
-                                <li>Carne salada</li>
-                                <li>Jamón y queso</li>
-                                <li>Árabe</li>
-                                <li>Caprese</li>
-                                <li>De pollo</li>
-                            </ul>
-                        </li>
-                        <li class="plato9">Postres
-                            <ul>
-                                <img class="fotoComida" src="../imagenes/fotos-restaurant/postre.jpg" alt="imagen de postre" title="Postre">
-                                <li>Chocolina</li>
-                                <li>Borrachito</li>
-                                <li>Isla flotante</li>
-                                <li>Budín de helado</li>
-                                <li>Flan casero</li>
-                                <li>Tiramisú</li>
-                                <li>Queso y dulce</li>
-                                <li>1 bocha de helado</li>
-                                <li>2 bochas de helado</li>
-                            </ul>
-                        </li>
-                        <li class="plato10">Bebidas
-                            <ul>
-                                <li>Agua saborizada 500cc</li>
-                                <li>Agua saborizada 1,5L</li>
-                                <li>Línea Pepsi 500cc</li>
-                                <li>Línea Pepsi 1,5L</li>
-                                <li>Vinos (pedir carta)</li>
-                                <li>Cervezas (preguntar por stock)</li>
-                            </ul>
-                        </li>
-                        <li class="plato11">Comida sin Tacc (pedir menú)</li>
-                    </ul>
-                </div>
+                <ul class="plato">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato1">Platos
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/plato.jpg" alt="imagen de churrasquito" title="Churrasquito">
+                                            <li class="list-group-item">Costeletas de cerdo con guarnición</li>
+                                            <li class="list-group-item">Bife de chorizo con guarnición</li>
+                                            <li class="list-group-item" >Pollo a la plancha con guarnición</li>
+                                            <li class="list-group-item">Pulpetín con guarnición</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato2">Guarniciones
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/ensalada.jpg" alt="Ensalada" title="Ensalada">
+                                            <li class="list-group-item">Papas fritas porción</li>
+                                            <li class="list-group-item">Puré de papas porción</li>
+                                            <li class="list-group-item">>Ensalada mixta</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card"style="width: 18rem;" >
+                                <div class="card-body">
+                                    <li class="plato3">Pastas
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/pastas.jpg" alt="Plato pastas" title="Pastas">
+                                            <li class="list-group-item">Ñoquis</li>
+                                            <li class="list-group-item">Tallarines</li>
+                                            <li class="list-group-item">Canelones</li>
+                                            <li class="list-group-item">Ravioles</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card"style="width: 18rem;" >
+                                <div class="card-body">
+                                    <li class="plato4">Milanesas
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/pollo.jpg" alt="Presa pollo" title="Pollo">
+                                            <li class="list-group-item">Milanesa simple con guarnición</li>
+                                            <li class="list-group-item">Milanesa completa con guarnición</li>
+                                            <li class="list-group-item">Milanesa a la pizza con guarnición</li>
+                                            <li class="list-group-item">Milanesa a caballo con guarnición</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" style="width: 18rem;" >
+                            <div class="card">
+                                <div class="card-body">
+                                    <li class="plato5">Picadas
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/picadas.jpg" alt="imagen picada" title="Picada">
+                                            <li class="list-group-item">De milanesa para 1 persona</li>
+                                            <li class="list-group-item">De chorizo y queso para 1 persona</li>
+                                            <li class="list-group-item">De milanesa para 4 personas</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato6">Sandwiches
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/sandwich.jpg" alt="Imagen Sandwich" title="Sandwich">
+                                            <li class="list-group-item">De lomito simple con fritas</li>
+                                            <li class="list-group-item">De lomito completo con fritas</li>
+                                            <li class="list-group-item">De lomito especial con fritas</li>
+                                            <li class="list-group-item">De Hamburguesa simple con fritas</li>
+                                            <li class="list-group-item">De Hamburguesa completa con fritas</li>
+                                            <li class="list-group-item">De Hamburguesa especial con fritas</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato7">Pizzas
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/pizza.jpg" alt="imagen pizza" title="Pizza">
+                                            <li class="list-group-item">Común</li>
+                                            <li class="list-group-item">Especial</li>
+                                            <li class="list-group-item">Calabresa</li>
+                                            <li class="list-group-item">Especial con huevo</li>
+                                            <li class="list-group-item">Napolitana</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato8">Empanadas
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/empanada.jpg" alt="Imagen empanada" title="Empanada">
+                                            <li class="list-group-item">Carne dulce</li>
+                                            <li class="list-group-item">Carne salada</li>
+                                            <li class="list-group-item">Jamón y queso</li>
+                                            <li class="list-group-item">Árabe</li>
+                                            <li class="list-group-item">Caprese</li>
+                                            <li class="list-group-item">De pollo</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato9">Postres
+                                        <ul class="list-group list-group-flush">
+                                            <img class="card-img-top" src="../imagenes/fotos-restaurant/postre.jpg" alt="imagen de postre" title="Postre">
+                                            <li class="list-group-item">Chocolina</li>
+                                            <li class="list-group-item">Borrachito</li>
+                                            <li class="list-group-item">Isla flotante</li>
+                                            <li class="list-group-item">Budín de helado</li>
+                                            <li class="list-group-item">Flan casero</li>
+                                            <li class="list-group-item">Tiramisú</li>
+                                            <li class="list-group-item">Queso y dulce</li>
+                                            <li class="list-group-item">1 bocha de helado</li>
+                                            <li class="list-group-item">2 bochas de helado</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <li class="plato10">Bebidas
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Agua saborizada 500cc</li>
+                                            <li class="list-group-item">Agua saborizada 1,5L</li>
+                                            <li class="list-group-item">Línea Pepsi 500cc</li>
+                                            <li class="list-group-item">Línea Pepsi 1,5L</li>
+                                            <li class="list-group-item">Vinos (pedir carta)</li>
+                                            <li class="list-group-item">Cervezas (preguntar por stock)</li>
+                                        </ul>
+                                    </li>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+                <p class="plato11">Comida sin Tacc (pedir menú)</p>
             </section>
         </div>
         <footer>
