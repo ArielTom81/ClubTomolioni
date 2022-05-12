@@ -1,34 +1,41 @@
-.principal{
+.navegadorPagina1{
+    color: yellow;
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px orange;
+    text-decoration: none;
+    padding: 14px;
     font-family: inspiration;
-    nav{
-        background-image: linear-gradient(to left, #4CAF50, #173819);
-        justify-items: stretch;
-        text-align: center;
-        div{
-            a{
-            color: yellow;
-            background-image: linear-gradient(to left, #4CAF50, #173819);
-            width: 100%;
-            border-radius: 5px;
-            border: solid 2px orange;
-            text-decoration: none;
-            padding: 14px;
-            font-family: inspiration;
-            }
-        }
+}
+
+.navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5{
+    @extend .navegadorPagina1;
+}
+
+@mixin encabezado ($size) {
+    h1 {
+        font-size: $size;
     }
+    h2 {
+        font-size: $size - 5px;
+    }
+    h3 {
+        font-size: $size - 8px;
+    }
+}
+
+main {
+    @include encabezado(35px)
+}
+
+
     .principalDeporte{
         color: yellow;
         font-size: 20px;
         .deporteHorarios{
             align-items: center;
             padding: 10px;
-            h2{
-                text-align: center;
-                font-family: sendflowers;
-                color: orange;
-                font-size: 30px; 
-            }
             div{
                 padding: 10px;
             }
@@ -49,12 +56,38 @@
         text-align: center;
         font-family: sendflowers;
         color: orange;
-        font-size: 35px;
     }
+
+    h2{
+        text-align: center;
+        font-family: sendflowers;
+        color: orange;
+    }
+
     .social{
         img{
             width: 400px;
             height: 400px;  
         }
     }
+
+$profiles:(
+    platos: green,
+    guarni: rgb(0, 255, 76),
+    pasta: rgb(94, 255, 0),
+    mila: rgb(20, 112, 20),
+    picada: rgb(34, 121, 34),
+    sandw: rgb(5, 114, 5),
+    pizza: rgb(101, 226, 101),
+    empa: rgb(35, 143, 35),
+    postre: rgb(62, 102, 62),
+    bebida: rgb(4, 75, 4),
+);
+
+@each $profile, $bgcolor in $profiles {
+    .#{$profile} {
+        color: $bgcolor;
+    }
 }
+    
+    

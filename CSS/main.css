@@ -31,50 +31,87 @@ header .publi {
         width: 110px;
         height: 90px; }
 
-.principal {
+.navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5 {
+  color: yellow;
+  background-image: linear-gradient(to left, #4CAF50, #173819);
+  width: 100%;
+  border-radius: 5px;
+  border: solid 2px orange;
+  text-decoration: none;
+  padding: 14px;
   font-family: inspiration; }
-  .principal nav {
-    background-image: linear-gradient(to left, #4CAF50, #173819);
-    justify-items: stretch;
-    text-align: center; }
-    .principal nav div a {
-      color: yellow;
-      background-image: linear-gradient(to left, #4CAF50, #173819);
-      width: 100%;
-      border-radius: 5px;
-      border: solid 2px orange;
-      text-decoration: none;
-      padding: 14px;
-      font-family: inspiration; }
-  .principal .principalDeporte {
-    color: yellow;
-    font-size: 20px; }
-    .principal .principalDeporte .deporteHorarios {
-      align-items: center;
+
+main h1 {
+  font-size: 35px; }
+
+main h2 {
+  font-size: 30px; }
+
+main h3 {
+  font-size: 27px; }
+
+.principalDeporte {
+  color: yellow;
+  font-size: 20px; }
+  .principalDeporte .deporteHorarios {
+    align-items: center;
+    padding: 10px; }
+    .principalDeporte .deporteHorarios div {
       padding: 10px; }
-      .principal .principalDeporte .deporteHorarios h2 {
-        text-align: center;
-        font-family: sendflowers;
-        color: orange;
-        font-size: 30px; }
-      .principal .principalDeporte .deporteHorarios div {
-        padding: 10px; }
-      .principal .principalDeporte .deporteHorarios .btn {
-        background-image: linear-gradient(to left, #4CAF50, #173819);
-        color: yellow;
-        border: solid 2px orange; }
-  .principal .form-group {
-    text-align: left; }
-  .principal .form-check {
-    text-align: left; }
-  .principal h1 {
-    text-align: center;
-    font-family: sendflowers;
-    color: orange;
-    font-size: 35px; }
-  .principal .social img {
-    width: 400px;
-    height: 400px; }
+    .principalDeporte .deporteHorarios .btn {
+      background-image: linear-gradient(to left, #4CAF50, #173819);
+      color: yellow;
+      border: solid 2px orange; }
+
+.form-group {
+  text-align: left; }
+
+.form-check {
+  text-align: left; }
+
+h1 {
+  text-align: center;
+  font-family: sendflowers;
+  color: orange; }
+
+h2 {
+  text-align: center;
+  font-family: sendflowers;
+  color: orange; }
+
+.social img {
+  width: 400px;
+  height: 400px; }
+
+.platos {
+  color: green; }
+
+.guarni {
+  color: #00ff4c; }
+
+.pasta {
+  color: #5eff00; }
+
+.mila {
+  color: #147014; }
+
+.picada {
+  color: #227922; }
+
+.sandw {
+  color: #057205; }
+
+.pizza {
+  color: #65e265; }
+
+.empa {
+  color: #238f23; }
+
+.postre {
+  color: #3e663e; }
+
+.bebida {
+  color: #044b04; }
 
 /*---footer---*/
 .pie {

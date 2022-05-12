@@ -1,0 +1,16 @@
+.navegadorPagina1{
+    color: yellow;
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px orange;
+    text-decoration: none;
+    padding: 14px;
+    font-family: inspiration;
+}
+
+.navegadorPagina2{
+    @extend .navegadorPagina1;
+}
+
+
