@@ -8,7 +8,7 @@
     font-family: sendflowers;
     src: url("../Fuentes/SendFlowers-Regular.ttf");
 }
-
+/*-------
 .acces{
     color: yellow;
     width: 100%;
@@ -21,6 +21,7 @@
     font-family: inspiration;
     text-align: center;
 }
+-------*/
 
 /*Acá empieza el navegador----*/
 .principal nav {
@@ -200,8 +201,8 @@ h3{
 }
 
 .card-img-top{
-    width: 25%;
-    height: 25%;
+    width: 80px;
+    height: 75px;
 }
 
 ul {
