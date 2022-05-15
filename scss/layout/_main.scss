@@ -13,81 +13,206 @@
     @extend .navegadorPagina1;
 }
 
-@mixin encabezado ($size) {
-    h1 {
-        font-size: $size;
-    }
-    h2 {
-        font-size: $size - 5px;
-    }
-    h3 {
-        font-size: $size - 8px;
-    }
-}
-
-main {
-    @include encabezado(35px)
-}
-
-
-    .principalDeporte{
-        color: yellow;
-        font-size: 20px;
-        .deporteHorarios{
-            align-items: center;
-            padding: 10px;
-            div{
-                padding: 10px;
-            }
-            .btn{
+body{
+    height: 100vh;
+    background-color: #4CAF50;
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    div{
+        .principal{
+            nav{
                 background-image: linear-gradient(to left, #4CAF50, #173819);
+                justify-items: stretch;
+                text-align: center;
+            }
+            .principalDeporte{
                 color: yellow;
-                border: solid 2px orange;
+                font-size: 20px;
+                .deporteHorarios{
+                    align-items: center;
+                    padding: 10px;
+                    .form-group{
+                        text-align: left;
+                    }
+                    .form-check{
+                        text-align: left;
+                    }
+                    div{
+                        padding: 10px;
+                    }
+                    .btn{
+                        background-image: linear-gradient(to left, #4CAF50, #173819);
+                        color: yellow;
+                        border: solid 2px orange;
+                    }
+                    h2{
+                        text-align: center;
+                        font-family: sendflowers;
+                        color: orange;
+                    }
+                }  
+            }
+            h1{
+                text-align: center;
+                font-family: sendflowers;
+                color: orange;
+            }     
+            .social{
+                img{
+                    width: 400px;
+                    height: 400px;  
+                }
             }
         }
     }
-    .form-group{
-        text-align: left;
-    }
-    .form-check{
-        text-align: left;
-    }
-    h1{
-        text-align: center;
-        font-family: sendflowers;
-        color: orange;
-    }
+}
+        /*---------Acá empieza la página fútbol, poli,salon -----*/
+body{
+    height: 100vh;
+    background-color: #4CAF50;
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    .principal{
+        .principalDeporte{
+            color: yellow;
+            font-size: 20px;
+            h1{
+                text-align: center;
+                font-family: sendflowers;
+                color: orange; 
+            }
+            .basquet{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                .deporteImg5, .deporteImg6{
+                    border: solid 2px orange;
+                    width: 150px;
+                    height: 150px;
+                }
+                .deporteImg7{
+                    border: solid 2px orange;
+                    width:250px;
+                    height: 250px;
+                }
+                img{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+            h2{
+                text-align: center;
+                font-family: sendflowers;
+                color: orange;
+                font-size: 30px;
+            }
+            .deporteHorarios{
+                div{
+                    color: yellow;
+                    font-size: 20px;
+                    text-align: center;
+                    animation-name: depor;
+                    animation-duration: 5s;
+                    animation-iteration-count: 1;
+                }
+            }
+            .deporteProfe {
+                color:yellow;
+                font-size: 25px;
+            }
+            .fotoRestaurant{
+                width: 100%;
+                height: auto;
+                padding: 2px;
+            }
+            h3{
+                text-decoration: underline wavy orange;
+                font-family: sendflowers;
+                color: orange;
+                text-align: center;
+                padding: 5px;
 
-    h2{
-        text-align: center;
-        font-family: sendflowers;
-        color: orange;
-    }
-
-    .social{
-        img{
-            width: 400px;
-            height: 400px;  
+            }
+            ul{
+                color: yellow;
+                padding: 0%;
+                list-style: none;
+                font-size: 22px;
+                font-weight: bold;
+                font-family: sendflowers;
+                div{
+                    div{
+                        div{
+                            div{
+                                li{
+                                    ul{
+                                        .card-img-top{
+                                            width: 80px;
+                                            height: 75px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            div{
+                article{
+                    h3{
+                        text-decoration: underline wavy orange;
+                        font-family: sendflowers;
+                        color: orange;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                    div{
+                        .table{
+                            table-layout: fixed;
+                            color: yellow;
+                            border: 3px solid orange;
+                            border-collapse: collapse;
+                            text-align: center;
+                            tr{
+                                th{
+                                    padding: 20px;
+                                    text-align: center;
+                                    border: 2px solid orange;
+                                    font-family: inspiration;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                td{padding: 20px;
+                                    border: 2px solid orange;
+                                    font-family: inspiration;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
-
-$profiles:(
-    platos: green,
-    guarni: rgb(0, 255, 76),
-    pasta: rgb(94, 255, 0),
-    mila: rgb(20, 112, 20),
-    picada: rgb(34, 121, 34),
-    sandw: rgb(5, 114, 5),
-    pizza: rgb(101, 226, 101),
-    empa: rgb(35, 143, 35),
-    postre: rgb(62, 102, 62),
-    bebida: rgb(4, 75, 4),
-);
-
-@each $profile, $bgcolor in $profiles {
-    .#{$profile} {
-        color: $bgcolor;
+}
+/*--------responsive tablet------------*/
+@media (max-width: 768px) {
+    .principal{
+        nav{
+            div{
+                div{
+                    a{
+                        display:grid;
+                        grid-template-areas: 
+                        "navegadorPagina1"
+                        "navegadorPagina2"
+                        "navegadorPagina3"
+                        "navegadorPagina4"
+                        "navegadorPagina5";  
+                    }
+                }
+            }
+        }
     }
 }
-    
-    

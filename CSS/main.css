@@ -1,45 +1,16 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/*---header----*/
-header .publi {
-  display: flex;
-  flex-direction: column; }
-  header .publi div {
-    justify-items: center;
-    align-items: center;
-    padding: 5px;
-    font-family: inspiration;
-    display: flex;
-    justify-content: space-between; }
-    header .publi div img {
-      width: 150px;
-      height: 105px;
-      transition: all 2s; }
-    header .publi div div {
-      border: dashed 2px orange;
-      border-radius: 20px;
-      width: 100px;
-      height: 70px;
-      padding: 10px;
-      text-align: center;
-      color: yellow;
-      transition: all 3s; }
-      header .publi div div:hover {
-        width: 110px;
-        height: 90px; }
+@font-face {
+  font-family: smokun;
+  src: url("../Fuentes/Smokum-Regular.ttf"); }
 
-.navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5 {
-  color: yellow;
-  background-image: linear-gradient(to left, #4CAF50, #173819);
-  width: 100%;
-  border-radius: 5px;
-  border: solid 2px orange;
-  text-decoration: none;
-  padding: 14px;
-  font-family: inspiration; }
+@font-face {
+  font-family: sendflowers;
+  src: url("../Fuentes/SendFlowers-Regular.ttf"); }
 
 main h1 {
   font-size: 35px; }
@@ -49,39 +20,6 @@ main h2 {
 
 main h3 {
   font-size: 27px; }
-
-.principalDeporte {
-  color: yellow;
-  font-size: 20px; }
-  .principalDeporte .deporteHorarios {
-    align-items: center;
-    padding: 10px; }
-    .principalDeporte .deporteHorarios div {
-      padding: 10px; }
-    .principalDeporte .deporteHorarios .btn {
-      background-image: linear-gradient(to left, #4CAF50, #173819);
-      color: yellow;
-      border: solid 2px orange; }
-
-.form-group {
-  text-align: left; }
-
-.form-check {
-  text-align: left; }
-
-h1 {
-  text-align: center;
-  font-family: sendflowers;
-  color: orange; }
-
-h2 {
-  text-align: center;
-  font-family: sendflowers;
-  color: orange; }
-
-.social img {
-  width: 400px;
-  height: 400px; }
 
 .platos {
   color: green; }
@@ -113,6 +51,182 @@ h2 {
 .bebida {
   color: #044b04; }
 
+@keyframes depor {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*------------responsive mobile----------*/
+/*---header----*/
+header .publi {
+  display: flex;
+  flex-direction: column; }
+  header .publi div {
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    font-family: inspiration;
+    display: flex;
+    justify-content: space-between; }
+    header .publi div img {
+      width: 150px;
+      height: 105px; }
+    header .publi div div {
+      border: dashed 2px orange;
+      border-radius: 20px;
+      width: 100px;
+      height: 70px;
+      padding: 10px;
+      text-align: center;
+      color: yellow;
+      transition: all 3s; }
+      header .publi div div:hover {
+        width: 110px;
+        height: 90px; }
+
+.navegadorPagina1, .navegadorPagina2, .navegadorPagina3, .navegadorPagina4, .navegadorPagina5 {
+  color: yellow;
+  background-image: linear-gradient(to left, #4CAF50, #173819);
+  width: 100%;
+  border-radius: 5px;
+  border: solid 2px orange;
+  text-decoration: none;
+  padding: 14px;
+  font-family: inspiration; }
+
+body {
+  height: 100vh;
+  background-color: #4CAF50;
+  background-image: linear-gradient(to left, #4CAF50, #173819); }
+  body div .principal nav {
+    background-image: linear-gradient(to left, #4CAF50, #173819);
+    justify-items: stretch;
+    text-align: center; }
+  body div .principal .principalDeporte {
+    color: yellow;
+    font-size: 20px; }
+    body div .principal .principalDeporte .deporteHorarios {
+      align-items: center;
+      padding: 10px; }
+      body div .principal .principalDeporte .deporteHorarios .form-group {
+        text-align: left; }
+      body div .principal .principalDeporte .deporteHorarios .form-check {
+        text-align: left; }
+      body div .principal .principalDeporte .deporteHorarios div {
+        padding: 10px; }
+      body div .principal .principalDeporte .deporteHorarios .btn {
+        background-image: linear-gradient(to left, #4CAF50, #173819);
+        color: yellow;
+        border: solid 2px orange; }
+      body div .principal .principalDeporte .deporteHorarios h2 {
+        text-align: center;
+        font-family: sendflowers;
+        color: orange; }
+  body div .principal h1 {
+    text-align: center;
+    font-family: sendflowers;
+    color: orange; }
+  body div .principal .social img {
+    width: 400px;
+    height: 400px; }
+
+/*---------Acá empieza la página fútbol, poli,salon -----*/
+body {
+  height: 100vh;
+  background-color: #4CAF50;
+  background-image: linear-gradient(to left, #4CAF50, #173819); }
+  body .principal .principalDeporte {
+    color: yellow;
+    font-size: 20px; }
+    body .principal .principalDeporte h1 {
+      text-align: center;
+      font-family: sendflowers;
+      color: orange; }
+    body .principal .principalDeporte .basquet {
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+      body .principal .principalDeporte .basquet .deporteImg5, body .principal .principalDeporte .basquet .deporteImg6 {
+        border: solid 2px orange;
+        width: 150px;
+        height: 150px; }
+      body .principal .principalDeporte .basquet .deporteImg7 {
+        border: solid 2px orange;
+        width: 250px;
+        height: 250px; }
+      body .principal .principalDeporte .basquet img {
+        width: 250px;
+        height: 250px; }
+    body .principal .principalDeporte h2 {
+      text-align: center;
+      font-family: sendflowers;
+      color: orange;
+      font-size: 30px; }
+    body .principal .principalDeporte .deporteHorarios div {
+      color: yellow;
+      font-size: 20px;
+      text-align: center;
+      animation-name: depor;
+      animation-duration: 5s;
+      animation-iteration-count: 1; }
+    body .principal .principalDeporte .deporteProfe {
+      color: yellow;
+      font-size: 25px; }
+    body .principal .principalDeporte .fotoRestaurant {
+      width: 100%;
+      height: auto;
+      padding: 2px; }
+    body .principal .principalDeporte h3 {
+      text-decoration: underline wavy orange;
+      font-family: sendflowers;
+      color: orange;
+      text-align: center;
+      padding: 5px; }
+    body .principal .principalDeporte ul {
+      color: yellow;
+      padding: 0%;
+      list-style: none;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: sendflowers; }
+      body .principal .principalDeporte ul div div div div li ul .card-img-top {
+        width: 80px;
+        height: 75px; }
+  body .principal section div article h3 {
+    text-decoration: underline wavy orange;
+    font-family: sendflowers;
+    color: orange;
+    text-align: center;
+    padding: 5px; }
+  body .principal section div article div .table {
+    table-layout: fixed;
+    color: yellow;
+    border: 3px solid orange;
+    border-collapse: collapse;
+    text-align: center; }
+    body .principal section div article div .table tr th {
+      padding: 20px;
+      text-align: center;
+      border: 2px solid orange;
+      font-family: inspiration;
+      width: 100%;
+      height: 100%; }
+    body .principal section div article div .table tr td {
+      padding: 20px;
+      border: 2px solid orange;
+      font-family: inspiration;
+      width: 100%;
+      height: 100%; }
+
+/*--------responsive tablet------------*/
+@media (max-width: 768px) {
+  .principal nav div div a {
+    display: grid;
+    grid-template-areas: "navegadorPagina1" "navegadorPagina2" "navegadorPagina3" "navegadorPagina4" "navegadorPagina5"; } }
+
 /*---footer---*/
 .pie {
   font-family: inspiration;
@@ -132,3 +246,9 @@ h2 {
     text-align: center;
     color: yellow;
     padding-top: 10px; }
+
+/*-------------responsive tablet--------------*/
+@media (max-width: 768px) {
+  .pie {
+    display: grid;
+    grid-template-areas: "pieDireccion" "pieRedes" "pieAutor"; } }

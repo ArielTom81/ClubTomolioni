@@ -21,3 +21,13 @@
         padding-top: 10px;
     }
 }
+/*-------------responsive tablet--------------*/
+@media (max-width: 768px) {
+    .pie{
+        display: grid;
+        grid-template-areas: 
+        "pieDireccion"
+        "pieRedes"
+        "pieAutor";
+    }
+}
