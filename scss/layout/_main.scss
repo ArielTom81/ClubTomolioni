@@ -129,21 +129,26 @@ body{
                 color: orange;
                 text-align: center;
                 padding: 5px;
-
             }
             ul{
                 color: yellow;
                 padding: 0%;
                 list-style: none;
                 font-size: 22px;
-                font-weight: bold;
                 font-family: sendflowers;
                 div{
+                    background-image: linear-gradient(to left, #4CAF50, #173819);
                     div{
                         div{
+                            margin: 0%;
                             div{
                                 li{
+                                    color:orange;
+                                    background-image: linear-gradient(to left, #4CAF50, #173819);
                                     ul{
+                                        li{
+                                            color: yellow;
+                                        }
                                         .card-img-top{
                                             width: 80px;
                                             height: 75px;
@@ -154,6 +159,11 @@ body{
                         }
                     }
                 }
+            }
+            p{
+                text-align: center;
+                font-size: 30px;
+                font-family: sendflowers;
             }
         }
         section{

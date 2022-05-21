@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; }
 
 @font-face {
@@ -190,11 +190,23 @@ body {
       padding: 0%;
       list-style: none;
       font-size: 22px;
-      font-weight: bold;
       font-family: sendflowers; }
-      body .principal .principalDeporte ul div div div div li ul .card-img-top {
-        width: 80px;
-        height: 75px; }
+      body .principal .principalDeporte ul div {
+        background-image: linear-gradient(to left, #4CAF50, #173819); }
+        body .principal .principalDeporte ul div div div {
+          margin: 0%; }
+          body .principal .principalDeporte ul div div div div li {
+            color: orange;
+            background-image: linear-gradient(to left, #4CAF50, #173819); }
+            body .principal .principalDeporte ul div div div div li ul li {
+              color: yellow; }
+            body .principal .principalDeporte ul div div div div li ul .card-img-top {
+              width: 80px;
+              height: 75px; }
+    body .principal .principalDeporte p {
+      text-align: center;
+      font-size: 30px;
+      font-family: sendflowers; }
   body .principal section div article h3 {
     text-decoration: underline wavy orange;
     font-family: sendflowers;
