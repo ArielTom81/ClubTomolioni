@@ -111,10 +111,12 @@ body {
     body div .principal .principalDeporte .deporteHorarios {
       align-items: center;
       padding: 10px; }
-      body div .principal .principalDeporte .deporteHorarios .form-group {
+      body div .principal .principalDeporte .deporteHorarios .form-group, body div .principal .principalDeporte .deporteHorarios .form-check {
         text-align: left; }
-      body div .principal .principalDeporte .deporteHorarios .form-check {
-        text-align: left; }
+        body div .principal .principalDeporte .deporteHorarios .form-group input, body div .principal .principalDeporte .deporteHorarios .form-check input {
+          background-image: linear-gradient(to left, #4CAF50, #173819);
+          border: solid 2px orange;
+          color: yellow; }
       body div .principal .principalDeporte .deporteHorarios div {
         padding: 10px; }
       body div .principal .principalDeporte .deporteHorarios .btn {
@@ -138,94 +140,94 @@ body {
   height: 100vh;
   background-color: #4CAF50;
   background-image: linear-gradient(to left, #4CAF50, #173819); }
-  body .principal .principalDeporte {
+  body div .principal .principalDeporte {
     color: yellow;
     font-size: 20px; }
-    body .principal .principalDeporte h1 {
+    body div .principal .principalDeporte h1 {
       text-align: center;
       font-family: sendflowers;
       color: orange; }
-    body .principal .principalDeporte .basquet {
+    body div .principal .principalDeporte .basquet {
       display: flex;
       justify-content: center;
       text-align: center; }
-      body .principal .principalDeporte .basquet .deporteImg5, body .principal .principalDeporte .basquet .deporteImg6 {
+      body div .principal .principalDeporte .basquet .deporteImg5, body div .principal .principalDeporte .basquet .deporteImg6 {
         border: solid 2px orange;
         width: 150px;
         height: 150px; }
-      body .principal .principalDeporte .basquet .deporteImg7 {
+      body div .principal .principalDeporte .basquet .deporteImg7 {
         border: solid 2px orange;
         width: 250px;
         height: 250px; }
-      body .principal .principalDeporte .basquet img {
+      body div .principal .principalDeporte .basquet img {
         width: 250px;
         height: 250px; }
-    body .principal .principalDeporte h2 {
+    body div .principal .principalDeporte h2 {
       text-align: center;
       font-family: sendflowers;
       color: orange;
       font-size: 30px; }
-    body .principal .principalDeporte .deporteHorarios div {
+    body div .principal .principalDeporte .deporteHorarios div {
       color: yellow;
       font-size: 20px;
       text-align: center;
       animation-name: depor;
       animation-duration: 5s;
       animation-iteration-count: 1; }
-    body .principal .principalDeporte .deporteProfe {
+    body div .principal .principalDeporte .deporteProfe {
       color: yellow;
       font-size: 25px; }
-    body .principal .principalDeporte .fotoRestaurant {
+    body div .principal .principalDeporte .fotoRestaurant {
       width: 100%;
       height: auto;
       padding: 2px; }
-    body .principal .principalDeporte h3 {
+    body div .principal .principalDeporte h3 {
       text-decoration: underline wavy orange;
       font-family: sendflowers;
       color: orange;
       text-align: center;
       padding: 5px; }
-    body .principal .principalDeporte ul {
+    body div .principal .principalDeporte ul {
       color: yellow;
       padding: 0%;
       list-style: none;
       font-size: 22px;
       font-family: sendflowers; }
-      body .principal .principalDeporte ul div {
+      body div .principal .principalDeporte ul div {
         background-image: linear-gradient(to left, #4CAF50, #173819); }
-        body .principal .principalDeporte ul div div div {
+        body div .principal .principalDeporte ul div div div {
           margin: 0%; }
-          body .principal .principalDeporte ul div div div div li {
+          body div .principal .principalDeporte ul div div div div li {
             color: orange;
             background-image: linear-gradient(to left, #4CAF50, #173819); }
-            body .principal .principalDeporte ul div div div div li ul li {
+            body div .principal .principalDeporte ul div div div div li ul li {
               color: yellow; }
-            body .principal .principalDeporte ul div div div div li ul .card-img-top {
+            body div .principal .principalDeporte ul div div div div li ul .card-img-top {
               width: 80px;
               height: 75px; }
-    body .principal .principalDeporte p {
+    body div .principal .principalDeporte p {
       text-align: center;
       font-size: 30px;
       font-family: sendflowers; }
-  body .principal section div article h3 {
+  body div section div article h3 {
     text-decoration: underline wavy orange;
     font-family: sendflowers;
     color: orange;
     text-align: center;
     padding: 5px; }
-  body .principal section div article div .table {
+  body div section div article div .table {
     table-layout: fixed;
     color: yellow;
     border: 3px solid orange;
     border-collapse: collapse;
     text-align: center; }
-    body .principal section div article div .table tr th {
+    body div section div article div .table tr th {
       padding: 0%;
       margin: 0%;
       text-align: center;
       border: 2px solid orange;
       font-family: inspiration; }
-    body .principal section div article div .table tr td {
+    body div section div article div .table tr td {
       padding: 0%;
       margin: 0%;
       text-align: center;
