@@ -238,7 +238,11 @@ body {
 @media (max-width: 768px) {
   .principal nav div div a {
     display: grid;
-    grid-template-areas: "navegadorPagina1" "navegadorPagina2" "navegadorPagina3" "navegadorPagina4" "navegadorPagina5"; } }
+    grid-template-areas: "navegadorPagina1"
+ "navegadorPagina2"
+ "navegadorPagina3"
+ "navegadorPagina4"
+ "navegadorPagina5"; } }
 
 /*---footer---*/
 .pie {
@@ -264,4 +268,6 @@ body {
 @media (max-width: 768px) {
   .pie {
     display: grid;
-    grid-template-areas: "pieDireccion" "pieRedes" "pieAutor"; } }
+    grid-template-areas: "pieDireccion"
+ "pieRedes"
+ "pieAutor"; } }
