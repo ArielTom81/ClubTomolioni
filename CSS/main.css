@@ -199,12 +199,16 @@ body {
           margin: 0%; }
           body div .principal .principalDeporte ul div div div div li {
             color: orange;
+            text-align: center;
             background-image: linear-gradient(to left, #4CAF50, #173819); }
             body div .principal .principalDeporte ul div div div div li ul li {
-              color: yellow; }
+              color: yellow;
+              text-align: center; }
             body div .principal .principalDeporte ul div div div div li ul .card-img-top {
               width: 80px;
-              height: 75px; }
+              height: 75px;
+              margin-left: auto;
+              margin-right: auto; }
     body div .principal .principalDeporte p {
       text-align: center;
       font-size: 30px;
@@ -238,11 +242,7 @@ body {
 @media (max-width: 768px) {
   .principal nav div div a {
     display: grid;
-    grid-template-areas: "navegadorPagina1"
- "navegadorPagina2"
- "navegadorPagina3"
- "navegadorPagina4"
- "navegadorPagina5"; } }
+    grid-template-areas: "navegadorPagina1" "navegadorPagina2" "navegadorPagina3" "navegadorPagina4" "navegadorPagina5"; } }
 
 /*---footer---*/
 .pie {
@@ -268,6 +268,4 @@ body {
 @media (max-width: 768px) {
   .pie {
     display: grid;
-    grid-template-areas: "pieDireccion"
- "pieRedes"
- "pieAutor"; } }
+    grid-template-areas: "pieDireccion" "pieRedes" "pieAutor"; } }
